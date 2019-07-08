@@ -1,0 +1,37 @@
+html, body {
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+#quote-section .business-img {
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 100% 100%;
+  background-position: center;
+  clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+#quote-section .jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  background: $body-bg;
+}
+
+#quote-section .text-column {
+  padding: 50px;
+}
+
+#quote-section #quote-header {
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

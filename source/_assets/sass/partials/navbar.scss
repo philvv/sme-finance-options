@@ -1,0 +1,17 @@
+.navbar-nav .nav-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  text-decoration: none !important;
+  height: 36px;
+}
+
+.navbar-nav .nav-item :hover {
+  background: $body-bg;
+  border-bottom: $primary solid 1px;
+  transition: background 0.3s ease-in;
+  text-decoration: none !important;
+}
+
+.navbar-nav .nav-item i:hover {
+  text-decoration: none !important;
+  border-bottom: 0px;
+}

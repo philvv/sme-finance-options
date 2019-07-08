@@ -1,0 +1,15 @@
+//Settings
+$enable-shadows: false; //enables weird gloss on buttons
+$enable-gradients: false; //enables weird gloss on buttons
+//Colours
+$primary: #2BAE66FF;
+$body-bg: #FCF6F5FF;
+$success: #2BAE66FF;
+$danger: #ae2b2b;
+
+$container-max-widths: (
+        sm: 650px,
+        md: 720px,
+        lg: 960px,
+        xl: 1300px
+);
