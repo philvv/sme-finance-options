@@ -28945,11 +28945,6 @@ html, body {
   background-attachment: fixed;
 }
 
-section {
-  height: 100%;
-  width: 100%;
-}
-
 #quote-section .business-img {
   height: 100%;
   background-image: url("https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -28962,30 +28957,61 @@ section {
 }
 
 #quote-section .jumbotron {
+  margin-top: 2rem;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
   background: #fafafc;
   box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0;
 }
 
 #quote-section .text-column {
   padding: 50px;
 }
 
-#quote-section #quote-header {
+.section-header {
   margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #quote-section .usp-card {
-  margin-top: 2rem;
   text-align: center;
   border: 0;
   box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.4);
 }
 
-#connect-section .screenshot-img {
-  background-image: url("https://www.capalona.co.uk/include/images/step-1.png");
-  height: 100%;
-  width: 100%;
+.key-headers {
+  font-weight: bold;
+}
+
+ul.steps {
+  counter-reset: li;
+  list-style-type: none;
+  padding-left: 10px;
+}
+ul.steps li {
+  position: relative;
+  padding: 5px 0 5px 30px;
+}
+ul.steps li:before {
+  content: counter(li);
+  counter-increment: li;
+  height: 30px;
+  width: 30px;
+  background: #2BAE66FF;
+  border: 1px solid #2BAE66FF;
+  border-radius: 50%;
+  color: #fafafc;
+  text-align: center;
+  position: absolute;
+  left: -7px;
+  top: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  #quote-section .usp-card {
+    margin-bottom: 2rem;
+  }
 }

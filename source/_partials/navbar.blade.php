@@ -21,7 +21,7 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="">
-                    <a class="btn btn-success" href="#" role="button">Get Quote</a>
+                    <a class="btn btn-success" href="{{ $page->quoteUrl }}" role="button">Get Quote</a>
                 </li>
             </ul>
         </div>
