@@ -1,16 +1,22 @@
 html, body {
-  height: 100vh;
   font-family: 'Quicksand', sans-serif;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 #quote-section .business-img {
   height: 100%;
   background-image: url('https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 100% 100%;
+  background-size: 100% auto;
   background-position: center;
   clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
   border-top-right-radius: 0.3rem;
@@ -22,6 +28,7 @@ section {
   padding-bottom: 0;
   padding-right: 0;
   background: $body-bg;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
 }
 
 #quote-section .text-column {
@@ -29,7 +36,24 @@ section {
 }
 
 #quote-section #quote-header {
-  margin-top: 10vh;
+  margin-top: 2rem;
+}
+
+#quote-section #quote-card-header {
+
+}
+
+#quote-section .usp-card {
+  margin-top: 2rem;
+  text-align: center;
+  border: 0;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+}
+
+#connect-section .screenshot-img {
+  background-image: url('https://www.capalona.co.uk/include/images/step-1.png');
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
