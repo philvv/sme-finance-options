@@ -9,7 +9,8 @@
                         <h1>Get the right funding for your business</h1>
                         <p class="lead">Everyday we help lots of businesses just like yours get the funding they need.
                             From start-ups to well established companies, we can help your business grow.</p>
-                        <a class="btn btn-success btn-lg" href="{{ $page->quoteUrl }}" role="button">Get Your Free
+                        <a class="btn btn-success btn-lg mobile-block" href="{{ $page->quoteUrl }}" role="button">Get
+                            Your Free
                             Quote</a>
                     </div>
                     <div class="col-0 col-lg-7 img-column">
@@ -64,13 +65,11 @@
         </div>
     </section>
     <section id="connect-section">
-        <div class="container">
-            <div class="row">
-                <div class="col">
+        <div class="container d-flex h-100">
+            <div class="row justify-content-center align-self-center">
+                <div class="col-12">
                     <h3 class="section-header">We help connect your business to the right providers</h3>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-12 col-md-5">
                     <img class="img mb-5" width="100%" height="auto"
                          src="https://www.capalona.co.uk/include/images/step-1.png">
@@ -89,7 +88,8 @@
                             <p>There's absolutely no obligation and no pressure. Decide when you’re ready!</p></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-7 offset-md-5"><a class="btn btn-success btn-lg" href="{{ $page->quoteUrl }}"
+                <div class="col-12 col-md-7 offset-md-5"><a class="btn btn-success btn-lg mobile-block"
+                                                            href="{{ $page->quoteUrl }}"
                                                             role="button">Get Your
                         Free Quote</a></div>
             </div>
@@ -97,28 +97,133 @@
     </section>
     <section id="loan-type-section">
         <div class="container" id="quote-header">
-            <div class="row">
-                <div class="col-6 bg-primary">
-                    <h1>Grow your business with extra credit</h1>
-                    <h3>Everyday we help businesses like yours expand by connecting you to suitable lenders that meet
-                        your business goals.</h3>
+            <div class="row justify-content-center align-self-center text-center">
+                <div class="col-12">
+                    <h3 class="section-header">Featured Products</h3>
                 </div>
-                <div class="col-6 bg-danger">
-
+                <div class="col-12 col-md-6">
+                    <div class="card loan-type-card">
+                        <div class="card-body text-center">
+                            <div><i class="fa fa-unlock fa-5x text-primary" aria-hidden="true"></i></div>
+                            <h2 class="key-headers">Unsecured Loan Finance</h2>
+                            <p>An unsecured business loan offers a straightforward funding solution for UK businesses;
+                                you could
+                                borrow up to £500,000 or more without having to secure the loan against company assets,
+                                such as
+                                property, land or equipment.</p>
+                            <a class="btn btn-success btn-lg" href="{{ $page->quoteUrl }}" role="button">Get Your Free
+                                Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-none d-lg-block">
+                    <div id="unsecured-img" class="rounded-sm"></div>
+                </div>
+                <div class="col-12 col-md-6 d-none d-lg-block">
+                    <div id="advance-img" class="rounded-sm"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card loan-type-card">
+                        <div class="card-body text-center">
+                            <i class="fa fa-credit-card-alt fa-5x text-primary" aria-hidden="true"></i>
+                            <h2 class="key-headers">Business Cash Advance</h2>
+                            <p>A Business Cash Advance, also known as a Merchant Cash Advance or PDQ loan, is a
+                                short
+                                term
+                                unsecured cash injection that is loaned against your business’ future credit and
+                                debit
+                                card
+                                sales.</p>
+                            <a class="btn btn-success btn-lg" href="{{ $page->quoteUrl }}" role="button">Get Your
+                                Free
+                                Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12"><h3 class="section-header">Other funding options</h3></div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-unlock fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Unsecured Business Loan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-credit-card-alt fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Business Cash Advance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-lock fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Secured Business Loan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-wrench fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Asset Finance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-industry fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Commercial Property Finance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-university fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">VAT and Tax Finance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-users fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">JV Property Development Finance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-building-o fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Commercial Mortgages</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="card funding-card">
+                        <div class="card-body">
+                            <i class="fa fa-building-o fa-3x text-primary" aria-hidden="true"></i>
+                            <h5 class="key-headers">Commercial Mortgages</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section id="quote-footer">
-        <div class="container" id="quote-header">
-            <div class="row">
-                <div class="col-6 bg-primary">
-                    <h1>Grow your business with extra credit</h1>
-                    <h3>Everyday we help businesses like yours expand by connecting you to suitable lenders that meet
-                        your business goals.</h3>
-                </div>
-                <div class="col-6 bg-danger">
-
+        <div class="container-fluid p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8"><h1>Find your business financing solution today</h1></div>
+                    <div class="col-4"><a class="btn btn-primary btn-lg btn-block" href="{{ $page->quoteUrl }}"
+                                          role="button">Get Your Free
+                            Quote</a></div>
                 </div>
             </div>
         </div>

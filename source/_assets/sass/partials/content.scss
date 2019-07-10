@@ -8,10 +8,19 @@ html, body {
   background-attachment: fixed;
 }
 
+.card {
+  margin-bottom: 2rem;
+  border: 0;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+}
+
+.card i {
+  margin-bottom: 5px;
+}
 
 #quote-section .business-img {
   height: 100%;
-  background-image: url('https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg');
   background-size: 100% auto;
   background-position: center;
   clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
@@ -19,12 +28,34 @@ html, body {
   border-bottom-right-radius: 0.3rem;
 }
 
+#quote-footer {
+  display: block;
+  position: relative;
+}
+
+#quote-footer::after {
+  content: "";
+  background-image: url('https://images.pexels.com/photos/870902/pexels-photo-870902.jpeg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+
+}
+
 #quote-section .jumbotron {
   margin-top: 2rem;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
-  background: $body-bg;
+  background: #ffffff;
   box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
   margin-bottom: 0;
 }
@@ -34,13 +65,32 @@ html, body {
 }
 
 .section-header {
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-#quote-section #quote-card-header {
+#connect-section {
+  display: block;
+  position: relative;
 
+}
+
+#connect-section::after {
+  content: "";
+  background-image: url('https://images.pexels.com/photos/886465/pexels-photo-886465.jpeg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+  background-color: red;
 }
 
 #quote-section .usp-card {
@@ -79,9 +129,66 @@ ul.steps {
   }
 }
 
+.product-icon {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  border: 5px solid $primary;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product-icon i {
+  margin-top: 5px;
+  color: $primary;
+}
+
+#loan-type-section #unsecured-img {
+  background-image: url("/assets/images/unsecured.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+}
+
+#loan-type-section #advance-img {
+  background-image: url("/assets/images/advance.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.40);
+}
+
+.funding-card {
+  text-align: center;
+  height: 164px;
+}
 
 @media only screen and (max-width: 600px) {
   #quote-section .usp-card {
     margin-bottom: 2rem;
+  }
+
+  .mobile-block {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #loan-type-section {
+    height: 150vh;
+  }
+
+  #quote-footer {
+    height: auto;
+  }
+
+  section {
+    height: 100vh;
   }
 }
