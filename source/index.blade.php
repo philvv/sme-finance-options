@@ -65,7 +65,7 @@
         </div>
     </section>
     <section id="connect-section">
-        <div class="container d-flex h-100">
+        <div class="container h-100">
             <div class="row justify-content-center align-self-center">
                 <div class="col-12">
                     <h3 class="section-header">We help connect your business to the right providers</h3>
