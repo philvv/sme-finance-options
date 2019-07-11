@@ -26826,14 +26826,12 @@ button.toast-close-button {
 }
 
 .navbar-nav .nav-item {
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
   text-decoration: none !important;
   height: 36px;
 }
 
-.navbar-nav .nav-item :hover {
-  background: #fafafc;
-  border-bottom: #2BAE66FF solid 1px;
+.navbar-nav .nav-item a:hover {
+  color: #2BAE66FF !important;
   -webkit-transition: background 0.3s ease-in;
   transition: background 0.3s ease-in;
   text-decoration: none !important;
@@ -26859,6 +26857,15 @@ body {
   background-attachment: fixed;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2BAE66FF;
+}
+
 .card {
   margin-bottom: 2rem;
   border: 0;
@@ -26871,13 +26878,28 @@ body {
 
 #quote-section .business-img {
   height: 100%;
-  background-image: url("https://images.pexels.com/photos/1724199/pexels-photo-1724199.jpeg");
+  background-image: url("/assets/images/coffee-shop.jpeg");
   background-size: 100% auto;
   background-position: center;
+  background-repeat: no-repeat;
   -webkit-clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
           clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
   border-top-right-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
+}
+
+#about-section {
+  margin-bottom: 3rem;
+}
+
+#about-section .team-img {
+  height: 100%;
+  background-image: url("/assets/images/team.jpeg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(7% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 #quote-footer {
@@ -26942,7 +26964,7 @@ body {
   background-position: 50% 50%;
   -webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
           clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
-  background-color: red;
+  background-color: white;
 }
 
 #quote-section .usp-card {
@@ -26995,7 +27017,7 @@ ul.steps li:before {
   color: #2BAE66FF;
 }
 
-#loan-type-section #unsecured-img {
+.loan-type-section #unsecured-img {
   background-image: url("/assets/images/unsecured.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -27005,7 +27027,7 @@ ul.steps li:before {
   box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.4);
 }
 
-#loan-type-section #advance-img {
+.loan-type-section #advance-img {
   background-image: url("/assets/images/advance.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -27021,6 +27043,10 @@ ul.steps li:before {
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+
   #quote-section .usp-card {
     margin-bottom: 2rem;
   }
@@ -27032,7 +27058,7 @@ ul.steps li:before {
 }
 
 @media only screen and (min-width: 600px) {
-  #loan-type-section {
+  .loan-type-section {
     height: 150vh;
   }
 

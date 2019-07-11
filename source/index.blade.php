@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card usp-card">
                         <div class="card-body">
                             <i class="fa fa-tag fa-5x pb-3 text-primary" aria-hidden="true"></i>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card usp-card">
                         <div class="card-body">
                             <i class="fa fa-list-ol fa-5x pb-3 text-primary" aria-hidden="true"></i>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card usp-card">
                         <div class="card-body">
                             <i class="fa fa-clock-o fa-5x pb-3 text-primary" aria-hidden="true"></i>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card usp-card">
                         <div class="card-body">
                             <i class="fa fa-handshake-o fa-5x pb-3 text-primary" aria-hidden="true"></i>
@@ -70,11 +70,11 @@
                 <div class="col-12">
                     <h3 class="section-header">We help connect your business to the right providers</h3>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5">
                     <img class="img mb-5" width="100%" height="auto"
                          src="https://www.capalona.co.uk/include/images/step-1.png">
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-lg-7">
                     <ul class="steps">
                         <li><h5 class="key-headers">Apply for business funding in minutes</h5>
                             <p>To start your search for business funding, simply complete the online questionnaire about
@@ -88,14 +88,14 @@
                             <p>There's absolutely no obligation and no pressure. Decide when you’re ready!</p></li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-7 offset-md-5"><a class="btn btn-success btn-lg mobile-block"
+                <div class="col-12 col-lg-7 offset-lg-5"><a class="btn btn-success btn-lg mobile-block"
                                                             href="{{ $page->quoteUrl }}"
                                                             role="button">Get Your
                         Free Quote</a></div>
             </div>
         </div>
     </section>
-    <section id="loan-type-section">
+    <section class="loan-type-section" id="loans">
         <div class="container" id="quote-header">
             <div class="row justify-content-center align-self-center text-center">
                 <div class="col-12">
@@ -116,10 +116,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 d-none d-lg-block">
+                <div class="col-12 col-lg-6 d-none d-lg-block">
                     <div id="unsecured-img" class="rounded-sm"></div>
                 </div>
-                <div class="col-12 col-md-6 d-none d-lg-block">
+                <div class="col-12 col-lg-6 d-none d-lg-block">
                     <div id="advance-img" class="rounded-sm"></div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-12"><h3 class="section-header">Other funding options</h3></div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-unlock fa-3x text-primary" aria-hidden="true"></i>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-credit-card-alt fa-3x text-primary" aria-hidden="true"></i>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-lock fa-3x text-primary" aria-hidden="true"></i>
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-wrench fa-3x text-primary" aria-hidden="true"></i>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-industry fa-3x text-primary" aria-hidden="true"></i>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-university fa-3x text-primary" aria-hidden="true"></i>
@@ -189,7 +189,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-users fa-3x text-primary" aria-hidden="true"></i>
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6  col-lg-2">
                     <div class="card funding-card">
                         <div class="card-body">
                             <i class="fa fa-building-o fa-3x text-primary" aria-hidden="true"></i>
@@ -205,27 +205,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
-                    <div class="card funding-card">
-                        <div class="card-body">
-                            <i class="fa fa-building-o fa-3x text-primary" aria-hidden="true"></i>
-                            <h5 class="key-headers">Commercial Mortgages</h5>
-                        </div>
-                    </div>
+                <div class="col-6 col-lg-2">
                 </div>
             </div>
         </div>
     </section>
-    <section id="quote-footer">
-        <div class="container-fluid p-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8"><h1>Find your business financing solution today</h1></div>
-                    <div class="col-4"><a class="btn btn-primary btn-lg btn-block" href="{{ $page->quoteUrl }}"
-                                          role="button">Get Your Free
-                            Quote</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 @endsection
