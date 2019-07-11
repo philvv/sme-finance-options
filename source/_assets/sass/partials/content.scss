@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #quote-section .business-img {
   height: 100%;
-  background-image: url('/assets/images/coffee-shop.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/coffee-shop.jpeg');
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about-section .team-img {
   height: 100%;
-  background-image: url('/assets/images/team.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/team.jpeg');
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #quote-footer::after {
   content: "";
-  background-image: url('/assets/images/account.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/account.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #connect-section::after {
   content: "";
-  background-image: url('/assets/images/handshake.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/handshake.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -162,7 +162,7 @@ ul.steps {
 }
 
 .loan-type-section #unsecured-img {
-  background-image: url("/assets/images/unsecured.jpeg");
+  background-image: url("https://bm-media.netlify.com/public/spurta/assets/images/unsecured.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -172,7 +172,7 @@ ul.steps {
 }
 
 .loan-type-section #advance-img {
-  background-image: url("/assets/images/advance.jpeg");
+  background-image: url("https://bm-media.netlify.com/public/spurta/assets/images/advance.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
