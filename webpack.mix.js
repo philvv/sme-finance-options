@@ -21,5 +21,5 @@ mix.js('source/_assets/js/main.js', 'js')
     .copy('node_modules/@mdi/font/fonts/*', 'source/assets/build/fonts')
     .sass('source/_assets/sass/main.scss', 'css')
     .options({
-        processCssUrls: false,
+        processCssUrls: true,
     }).version();
