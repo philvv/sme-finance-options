@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #quote-footer::after {
   content: "";
-  background-image: url('https://images.pexels.com/photos/870902/pexels-photo-870902.jpeg');
+  background-image: url('/assets/images/account.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #connect-section::after {
   content: "";
-  background-image: url('https://images.pexels.com/photos/886465/pexels-photo-886465.jpeg');
+  background-image: url('/assets/images/handshake.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
