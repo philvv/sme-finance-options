@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <img class="mb-5" src="/assets/images/spurta-white.png" alt="" width="150"
+                <img class="mb-5" src="https://bm-media.netlify.com/public/spurta/assets/images/spurta-white.png" alt="" width="150"
                      height="50">
             </div>
             <div class="col-12 text-white">

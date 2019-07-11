@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand text-primary" href="#"><img src="/assets/images/spurta-logo-2.png" width="150"
-                                                           height="50"
-                                                           alt=""></a>
+        <a class="navbar-brand text-primary" href="#"><img
+                    src="https://bm-media.netlify.com/public/spurta/assets/images/spurta-logo-2.png" width="150"
+                    height="50"
+                    alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
