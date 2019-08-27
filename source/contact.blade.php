@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="section-header">Contact</h1>
-                    <h3>We're here to help</h3>
+                    <h1 class="section-header pb-0 mb-0">Contact</h1>
+                    <h3 class="text-center">We're here to help</h3>
                 </div>
             </div>
             <div class="row">
