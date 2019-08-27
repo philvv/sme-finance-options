@@ -1,0 +1,67 @@
+@extends('_layouts.master')
+
+@section('body')
+    <section id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="section-header">Contact Us</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="index.html" id="contact-form">
+                        <p class="hidden d-none">
+                            <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+                        </p>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="name-input">Name</label>
+                                    <input type="text" class="form-control" id="name-input" aria-describedby="name"
+                                           placeholder="Enter name" name="name" required>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="email-input">Email address</label>
+                                    <input type="email" class="form-control" id="email-input"
+                                           aria-describedby="email"
+                                           placeholder="Email" name="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" class="form-control" id="subject-input"
+                                           aria-describedby="subject"
+                                           placeholder="Subject" name="subject" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="message-input">Message</label>
+                                    <textarea class="form-control" id="message-input" rows="3"
+                                              name="message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block background-primary">Send
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
