@@ -20021,8 +20021,8 @@ window.serializejson = __webpack_require__(/*! jquery-serializejson */ "./node_m
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\ben_m\Documents\Development\Projects\business-loans\source\_assets\js\main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! C:\Users\ben_m\Documents\Development\Projects\business-loans\source\_assets\sass\main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! C:\Users\ben_m\Documents\Development\Projects\sme-finance-options\source\_assets\js\main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! C:\Users\ben_m\Documents\Development\Projects\sme-finance-options\source\_assets\sass\main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })

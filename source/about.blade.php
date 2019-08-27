@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="section-header">Welcome to Spurta Finance</h1>
+                    <h1 class="section-header">Welcome to SME Finance Options</h1>
                     <p>The purpose and goal of our system is provide solutions for the SME sector.
                         From start ups to established companies, we can help your business grow.
                     </p>

@@ -1,15 +1,32 @@
-html, body {
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-attachment: fixed;;
+  height: 100%;
   font-family: 'Quicksand', sans-serif;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $primary;
+}
+
+section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-header {
+  padding-bottom: 5%;
+}
+
+#quote-section {
+  padding-top: 0;
 }
 
 .card {
@@ -24,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #quote-section .business-img {
   height: 100%;
-  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/coffee-shop.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/sme-finance-options/assets/images/coffee-shop.jpeg');
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about-section .team-img {
   height: 100%;
-  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/team.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/sme-finance-options/assets/images/team.jpeg');
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,13 +64,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #quote-footer {
+
+  padding-top: 2%;
+  padding-bottom: 2%;
   display: block;
   position: relative;
 }
 
 #quote-footer::after {
   content: "";
-  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/account.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/sme-finance-options/assets/images/account.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -96,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #connect-section::after {
   content: "";
-  background-image: url('https://bm-media.netlify.com/public/spurta/assets/images/handshake.jpeg');
+  background-image: url('https://bm-media.netlify.com/public/sme-finance-options/assets/images/handshake.jpeg');
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -162,7 +182,7 @@ ul.steps {
 }
 
 .loan-type-section #unsecured-img {
-  background-image: url("https://bm-media.netlify.com/public/spurta/assets/images/unsecured.jpeg");
+  background-image: url("https://bm-media.netlify.com/public/sme-finance-options/assets/images/unsecured.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -172,7 +192,7 @@ ul.steps {
 }
 
 .loan-type-section #advance-img {
-  background-image: url("https://bm-media.netlify.com/public/spurta/assets/images/advance.jpeg");
+  background-image: url("https://bm-media.netlify.com/public/sme-finance-options/assets/images/advance.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -199,19 +219,5 @@ ul.steps {
   .mobile-block {
     width: 100%;
     display: block;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .loan-type-section {
-    height: 150vh;
-  }
-
-  #quote-footer {
-    height: auto;
-  }
-
-  section {
-    height: 100vh;
   }
 }
