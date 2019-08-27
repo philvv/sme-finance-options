@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-12 col-lg-5">
                     <img class="img mb-5" width="100%" height="auto"
-                         src="https://www.capalona.co.uk/include/images/step-1.png">
+                         src="https://bm-media.netlify.com/public/sme-finance-options/assets/images/screenshot.png">
                 </div>
                 <div class="col-12 col-lg-7">
                     <ul class="steps">
