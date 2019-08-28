@@ -64,9 +64,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="alert alert-primary alert-dismissible fade" role="alert">
+            <strong>Contact form submitted successfully.</strong> We'll get back to you shortly.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
     </section>
 
     <script>
+
+        $('.alert').alert();
 
         $("#contact-form").submit(function(e) {
 
@@ -74,7 +84,7 @@
 
             var $form = $(this);
             $.post($form.attr("action"), $form.serialize()).then(function() {
-                alert("Thank you!");
+                $(".alert").addClass('show');
             });
         });
 
