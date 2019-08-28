@@ -59,7 +59,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="index.html" id="contact-form">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"   id="contact-form">
                         <p class="hidden d-none">
                             <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
                         </p>
@@ -109,10 +109,36 @@
                             </div>
                         </div>
                     </form>
+
+                    <div class="alert alert-primary alert-dismissible fade" role="alert">
+                        <strong>Contact form submitted successfully.</strong> We'll get back to you shortly.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </div>
+
+
+
     </section>
+
+    <script>
+
+        $("#contact-form").submit(function(e) {
+
+            e.preventDefault();
+
+            var $form = $(this);
+            
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+                $(".alert").addClass('show');
+            });
+        });
+
+    </script>
 <section id="quote-footer">
     <div class="container-fluid p-5 mb-5">
         <div class="container">
