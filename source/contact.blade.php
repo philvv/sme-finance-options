@@ -88,7 +88,7 @@
             var $form = $(this);
             $.post($form.attr("action"), $form.serialize()).then(function() {
                 $(".alert").addClass('show');
-
+            }).then(function() {
                 setTimeout(function() {
                     $(".alert").alert('close')
                 }), 3000;
