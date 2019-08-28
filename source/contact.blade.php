@@ -92,7 +92,7 @@
 
                 setTimeout(function(){
                     $(".alert").addClass('show');
-                }, 1000);
+                }, 500);
 
 
             });
