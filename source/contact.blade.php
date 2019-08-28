@@ -90,7 +90,7 @@
                 $(".alert").addClass('show');
 
                 setTimeout(function() {
-                    $(".alert").removeClass('show');
+                    $(".alert").alert('close')
                 }), 3000;
             });
         });
