@@ -86,7 +86,15 @@
             var $form = $(this);
 
             $.post($form.attr("action"), $form.serialize()).then(function() {
-                $(".alert").addClass('show');
+
+                $("#contact-form").hide();
+
+
+                setTimeout(function(){
+                    $(".alert").addClass('show');
+                }, 500);
+
+
             });
         });
 
