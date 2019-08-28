@@ -11,7 +11,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"   id="contact-form">
                         <p class="hidden d-none">
                             <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
                         </p>
