@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'quoteUrl' => 'https://partnerform.sorodo.com/mca/?cid=6378e4e7-6de9-4aa0-a103-5e5cbbd12d77&scid=3e1ec564-855a-45d2-a7e1-11ebbdf54154',
+    'quoteUrl' => 'https://www.capalona.co.uk/partner/smefinanceoptions',
     'collections' => [],
     'active' => function ($page, $section) {
         $split = explode('/', $page->getPath());
